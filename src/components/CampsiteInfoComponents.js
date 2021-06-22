@@ -21,7 +21,7 @@ export default class CampsiteInfoComponents extends Component {
 
             return(
                 <div className="col-md-5 m-1">
-                    <h4>Comments</h4>
+                    <h4>Comments:</h4>
                     {
                         comments.map((comment)=>(
                             <div>
@@ -45,18 +45,14 @@ export default class CampsiteInfoComponents extends Component {
     render() {
         if (this.props.campsite) {
             return (
-                <div className="row">
-                    {this.renderCampsite(this.props.campsite)}
-                    {this.renderComments(this.props.campsite.comments)}
+                <div className="container">
+                    <div className="row">
+                        {this.renderCampsite(this.props.campsite)}
+                        {this.renderComments(this.props.campsite.comments)}
+                    </div>
                 </div>
-            )
-        } else {
-            return (
-            <div>
-                
-            </div>
-            )
- 
+            );
         }
+        return <div />;
     }
 }
