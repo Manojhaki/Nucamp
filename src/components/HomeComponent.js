@@ -1,10 +1,6 @@
 import React from 'react';
 import {Card, CardImg, CardBody,CardTitle} from 'reactstrap';
-import CardImgOverlay from 'reactstrap/lib/CardImgOverlay';
 import CardText from 'reactstrap/lib/CardText';
-import NavItem from 'reactstrap/lib/NavItem';
-
-
 
 function RenderCard({item}) {
     return (
