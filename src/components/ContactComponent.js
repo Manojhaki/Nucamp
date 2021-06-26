@@ -6,13 +6,13 @@ function Contact(props) {
     return (
         <div className="container">
             <div className="row">
-            <div className="col">
+                <div className="col">
                     <Breadcrumb>
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                         <BreadcrumbItem active>Contact Us</BreadcrumbItem>
                     </Breadcrumb>
                     <h2>Contact Us</h2>
-                    </div>
+                </div>
             </div>
 
             <div className="row row-content align-items-center">
