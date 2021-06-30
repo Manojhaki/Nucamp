@@ -65,3 +65,14 @@ class Main extends Component {
 }
 
 export default Main;
+
+//git init
+// git branch -m master
+
+
+
+// git add .
+// git status
+// git commit -m "my commit"
+// git push -u origin main
+  // master

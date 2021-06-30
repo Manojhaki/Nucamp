@@ -7,7 +7,7 @@ function About(props) {
 
     const partners = props.partners.map(partner => {
         return (
-            <Media tag="li" key="{partner.id}">
+            <Media tag="li" key={partner.id}>
 
                 <RenderPartner partner={partner} />
 
