@@ -37,6 +37,7 @@ class Header extends Component {
     }
     handleLogin(event) {
         alert(`Username: ${this.username.value} Password: ${this.password.value} Remember: ${this.remember.checked}`);
+        console.log("ok Modal")
         this.toggleModal();
         event.preventDefault();
     }
